@@ -23,8 +23,8 @@ Example:
 
 ```ruby
 config.vm.provider "virtualbox" do |vb|
-  vb.memory = "4096"
-  vb.cpus = 4
+  vb.memory = "2048"
+  vb.cpus = 2
   vb.gui = false
 end
 ```
